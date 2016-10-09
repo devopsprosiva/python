@@ -1,8 +1,6 @@
 #!/usr/local/bin/python
 import sys
 
-#input_temp=int(raw_input("Enter the temperature in Celsius: "))
-#cel_temp=32
 temperatures=[10,-20,-289,100]
 
 def c2f(cel_temp):
