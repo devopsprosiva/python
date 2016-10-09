@@ -12,4 +12,9 @@ def c2f(cel_temp):
 
 
 for temp in temperatures:
-    print(c2f(temp))
+    file = open('temperatures.txt','a+')
+    if temp > -273.15:
+        temp_output = c2f(temp)
+        file.write(str(temp_output))
+        file.write("\n")
+        file.close()
