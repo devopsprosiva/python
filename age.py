@@ -23,6 +23,7 @@ years_to_hundred = 100 - age
 # To assign a value to a variable, use '='
 # To compare values of two variables/operands, use '=='
 if years_to_hundred == 0:
+    # capitalize is a function. So you've to end the function call with ()
     print(name.capitalize() + ", you already reached 100.. Yay!!!")
 else:
     # Since a string and an integer cannot be concatenated in the same print statement,
