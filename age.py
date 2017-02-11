@@ -7,6 +7,7 @@
 
 import sys
 import datetime
+
 # input function in Python 2.7, evaluates whatever your enter, as a Python expression.
 # If you simply want to read strings, then use raw_input function in Python 2.7, which will not evaluate the read strings.
 # If you are using Python 3.x, raw_input has been renamed to input
@@ -17,7 +18,7 @@ name = raw_input("Enter your name: ")
 # Using input for integers as it will automatically interpret as number
 age = input("Enter your age: ")
 
-# Get the current year
+# Get the current year using the datetime module
 current_year = datetime.datetime.now().year
 
 # Calculate the number of years remaining to reach 100 years
