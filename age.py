@@ -1,4 +1,4 @@
-#!/usr/local/bin/python
+#!/usr/bin/env python
 
 #################################################################################################################
 # Create a program that asks the user to enter their name and their age.                                        #
