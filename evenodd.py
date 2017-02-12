@@ -5,6 +5,8 @@ import sys
 # Ask user to input a number
 number = input("Enter a number: ")
 
+# Ask user to input a number to divide by
+check = input("Enter a number to divide by: ")
 
 # The % (modulo) operator yields the remainder from the division of the first argument by the second.
 # The numeric arguments are first converted to a common type.
@@ -13,7 +15,16 @@ number = input("Enter a number: ")
 # The modulo operator always yields a result with the same sign as its second operand (or zero); the absolute value of the result is strictly smaller than the absolute value of the second operand [2].
 # Taken from http://stackoverflow.com/questions/4432208/how-does-work-in-python , http://docs.python.org/reference/expressions.html
 
-if number % 2 == 0:
-    print(str(number) + " is an even number.")
+
+if number % 4 == 0:
+    print(str(number) + " is a multiple of 4 and an even number")
+elif number % 2 == 0:
+    print(str(number) + " is an even number")
 elif number % 2 == 1:
-    print(str(number) + " is an odd number.")
+    print(str(number) + " is an odd number")
+
+
+if number % check == 0:
+    print(str(number) + " divides evenly by " + str(check))
+else:
+    print(str(number) + " does not divide evenly by " + str(check))
