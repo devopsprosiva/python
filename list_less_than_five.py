@@ -11,10 +11,11 @@
 
 import sys
 
-#l = [1,3,5,7,9,10,12,15,24,55]
-
 # Prompt user to input a list of numbers
 user_input = raw_input("Enter a list of numbers separated by a space: ")
+
+# Prompt user to input a number to check against the list
+check_number = int(raw_input("Enter a number to check against the above list: "))
 
 # Split the list of numbers using space and assign them to a new list
 # Remember that the elements in this list are strings
@@ -35,5 +36,5 @@ output_list = []
 # print output_list
 
 # Same logic as above in a single line
-endlist = [i for i in input_list if i<5]
+endlist = [i for i in input_list if i<check_number]
 print sorted(endlist)
