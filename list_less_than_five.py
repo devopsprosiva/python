@@ -25,11 +25,15 @@ input_list = [int(x) for x in user_list]
 
 # Create an empty output list
 output_list = []
+#
+# # Loop through the list and store elements less than 5 in the output list
+# for i in input_list:
+#     if i < 5:
+#         output_list.append(i)
+#
+# # Print the final output list
+# print output_list
 
-# Loop through the list and store elements less than 5 in the output list
-for i in input_list:
-    if i < 5:
-        output_list.append(i)
-
-# Print the final output list
-print output_list
+# Same logic as above in a single line
+endlist = [i for i in input_list if i<5]
+print sorted(endlist)
