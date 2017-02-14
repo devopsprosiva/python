@@ -2,6 +2,7 @@
 
 #################################################################################################################
 # Create a program that asks the user for a number and then prints out a list of all the divisors of that number.
+# http://www.practicepython.org/exercise/2014/02/26/04-divisors.html
 #################################################################################################################
 
 
