@@ -18,4 +18,4 @@ divisors_output_list = []
 # Adding 1 to the user_input in the range to include the number itself as the divisor i.e., a number will divide itself evenly
 divisors_output_list = [i for i in range(1, user_input+1) if user_input % i == 0]
 
-print divisors_output_list
+print (divisors_output_list)
